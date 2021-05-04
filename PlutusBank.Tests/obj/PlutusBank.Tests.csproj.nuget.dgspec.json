@@ -4,14 +4,14 @@
     "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Tests\\PlutusBank.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Tests\\PlutusBank.Tests.csproj": {
+    "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Domain\\PlutusBank.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Tests\\PlutusBank.Tests.csproj",
-        "projectName": "PlutusBank.Tests",
-        "projectPath": "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Tests\\PlutusBank.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Domain\\PlutusBank.Domain.csproj",
+        "projectName": "PlutusBank.Domain",
+        "projectPath": "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Domain\\PlutusBank.Domain.csproj",
         "packagesPath": "C:\\Users\\Muna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Muna\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,65 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Tests\\PlutusBank.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Tests\\PlutusBank.Tests.csproj",
+        "projectName": "PlutusBank.Tests",
+        "projectPath": "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Tests\\PlutusBank.Tests.csproj",
+        "packagesPath": "C:\\Users\\Muna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Muna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Domain\\PlutusBank.Domain.csproj": {
+                "projectPath": "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Domain\\PlutusBank.Domain.csproj"
+              },
+              "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Web\\PlutusBank.Web.csproj": {
+                "projectPath": "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Web\\PlutusBank.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -44,11 +103,11 @@
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[3.15.1, )"
+              "version": "[3.17.0, )"
             },
             "nunit": {
               "target": "Package",
-              "version": "[3.12.0, )"
+              "version": "[3.13.2, )"
             }
           },
           "imports": [
@@ -62,6 +121,96 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Web\\PlutusBank.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Web\\PlutusBank.Web.csproj",
+        "projectName": "PlutusBank.Web",
+        "projectPath": "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Web\\PlutusBank.Web.csproj",
+        "packagesPath": "C:\\Users\\Muna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Muna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Domain\\PlutusBank.Domain.csproj": {
+                "projectPath": "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Domain\\PlutusBank.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Nunit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "Nunit3testadapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

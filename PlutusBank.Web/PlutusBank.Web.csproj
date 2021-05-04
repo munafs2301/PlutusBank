@@ -21,4 +21,8 @@
     <PackageReference Include="Nunit3testadapter" Version="3.17.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PlutusBank.Domain\PlutusBank.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

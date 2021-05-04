@@ -180,3 +180,5 @@ C:\Users\Muna\source\repos\PlutusBank\PlutusBank.Web\obj\Debug\netcoreapp3.1\sta
 C:\Users\Muna\source\repos\PlutusBank\PlutusBank.Web\obj\Debug\netcoreapp3.1\PlutusBank.Web.dll
 C:\Users\Muna\source\repos\PlutusBank\PlutusBank.Web\obj\Debug\netcoreapp3.1\PlutusBank.Web.pdb
 C:\Users\Muna\source\repos\PlutusBank\PlutusBank.Web\obj\Debug\netcoreapp3.1\PlutusBank.Web.genruntimeconfig.cache
+C:\Users\Muna\source\repos\PlutusBank\PlutusBank.Web\bin\Debug\netcoreapp3.1\PlutusBank.Domain.dll
+C:\Users\Muna\source\repos\PlutusBank\PlutusBank.Web\bin\Debug\netcoreapp3.1\PlutusBank.Domain.pdb

@@ -1745,6 +1745,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "PlutusBank.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/PlutusBank.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlutusBank.Domain.dll": {}
+        }
       }
     }
   },
@@ -6500,6 +6510,11 @@
         "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "PlutusBank.Domain/1.0.0": {
+      "type": "project",
+      "path": "../PlutusBank.Domain/PlutusBank.Domain.csproj",
+      "msbuildProject": "../PlutusBank.Domain/PlutusBank.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6509,7 +6524,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.14",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.14",
       "Nunit >= 3.13.2",
-      "Nunit3testadapter >= 3.17.0"
+      "Nunit3testadapter >= 3.17.0",
+      "PlutusBank.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6537,7 +6553,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Domain\\PlutusBank.Domain.csproj": {
+              "projectPath": "C:\\Users\\Muna\\source\\repos\\PlutusBank\\PlutusBank.Domain\\PlutusBank.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
